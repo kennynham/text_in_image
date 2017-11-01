@@ -11,8 +11,8 @@ Text in image is a tool that allows you to embed a hidden message into a image.
 
 ## Instructions
 #### To embed a message in an image use:
-`$ python steg.py ['-m' or '--embed'] [/path/to/picture.jpg] ['new_picture_name'] ['message']`
+    $ python steg.py ['-m' or '--embed'] [/path/to/picture.jpg] ['new_picture_name'] ['message']
 
 #### To extract a message from an image use:
-`$ python steg.py ['-x' or '--extract'] [/path/to/picture.jpg]`
+    $ python steg.py ['-x' or '--extract'] [/path/to/picture.jpg]
 

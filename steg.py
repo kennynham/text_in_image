@@ -1,6 +1,5 @@
 from PIL import Image
 import sys
-import os.path
 
 # Number of pixels to store the length of the hidden message
 TEXT_LENGTH = 11
@@ -273,8 +272,6 @@ else:
     print("Invalid arguments.\n")
     print("To embed a message in an image use:")
     print("$ python steg.py ['-m' or '--embed'] [/path/to/picture.jpg] ['new_picture_name'] ['message']\n")
-    print("To embed a message from a file in an image use:")
-    print("$ python steg.py ['-m' or '--embed'] ['-f' or '--file'] [/path/to/picture.jpg] ['new_picture_name'] ['message']\n")
     print("To extract the hidden message from an image use:")
     print("$ python steg.py ['-x' or '--extract'] [/path/to/picture.jpg]")
     sys.exit()
